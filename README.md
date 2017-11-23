@@ -1,5 +1,5 @@
 
-Ready to use docker compose script
+# Ready to use docker compose script
 
 Includes:
 
@@ -8,8 +8,7 @@ Includes:
 * grafana v4.6.2
 
 
-### Bootstap your grafana [optional]
-
+#### Bootstap your grafana [optional]
 
 1. Navigate to the http://localhost:3000
 
@@ -17,15 +16,14 @@ Includes:
 
 3. Add data source
 
-* type: **Prometheus**
-* name: **prometheus**
-* URL: **http://prometheus:9090**
-* access: **proxy**
+  * type: **Prometheus**
+  * name: **prometheus**
+  * URL: **http://prometheus:9090**
+  * access: **proxy**
 
 4. Add basic dashboards
 
-* Select **Import Dashboard** -> put grafana.com dashboard #**22**
-
+* Select **Import Dashboard** -> put grafana.com dashboard #**[22](https://grafana.com/dashboards/22)**
 
 
 
