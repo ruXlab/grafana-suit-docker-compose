@@ -3,10 +3,18 @@
 
 Includes:
 
-* Prometheus v2.0
-* node-exporter v0.15.1
-* grafana v4.6.2
+* Prometheus v2.2.0
+* node-exporter v0.15.2
+* grafana v5.0.1
+                 
 
+# How to run it
+
+1) Make sure you have [docker](https://docs.docker.com/install/) and [docker-compose](https://docs.docker.com/compose/install/) installed
+2) Clone repo: 
+  `git clone git@github.com:ruXlab/grafana-suite-docker-compose.git`
+3) Run compose in the folder
+   `docker-compose up`
 
 #### Bootstap your grafana [optional]
 
